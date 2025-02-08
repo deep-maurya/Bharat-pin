@@ -1,11 +1,16 @@
 {
   "name": "bharatpin",
   "version": "1.0.0",
+  "description": "A simple NPM package to fetch Indian PIN code details.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": ["pincode", "india", "postal", "lookup", "zipcode"],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deep-maurya/Bharat-pin.git"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "axios": "^1.5.1"
+  }
 }
